@@ -1,0 +1,323 @@
+*{
+  margin:0;
+  position:0;
+}
+h0{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(4, 4, 63);
+  font-size: 24px;
+  font-weight: bold;
+}
+h0:hover
+{
+  background: #d3f0f0;
+  cursor:pointer;
+  transition: 0.8s;
+}
+#nav-bar
+{
+  position : sticky;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height : 40px;
+  padding-left:30px;
+}
+.navbar-nav li
+{
+padding : 0 10px;
+}
+.navbar-nav li a
+{
+  float:right;
+  text-align:left;
+}
+#nav-bar ul li a:hover{
+  color:blue!important;
+}
+.navbar
+{
+  background :#fff;
+}
+.navbar-toggler
+{
+  border:none!important;
+}
+.nav-link
+{
+  color:#555!important;
+  font-weight: 600;
+  font-size: 22px;
+}
+/*------slider-----*/
+#slider
+{
+width: 100%;
+}
+#d-block 
+{
+  width: 100%;
+}
+.carousel-caption
+{
+  top:90%;
+  transform:translateY(-50%);
+  bottom:initial!important;
+}
+.carousel-caption h4
+{
+  color: black;
+  size:42px;
+}
+
+#about
+{
+  padding :50px;
+  padding:50px;
+  color:#555;
+}
+#about .btn
+{
+  margin-top:20px;
+  margin-bottom:30px;
+}
+.about-content
+{
+  padding-top:20px;
+}
+.skills-bar p
+{
+ margin-bottom: 6px;
+ font-weight: 600;
+}
+.progress-bar
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px!important;
+  margin-bottom: 20px;
+}
+/*-------------Services---------*/
+#courses
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/learn.jpg);
+  background-size:cover;
+  background-position: center;
+  color:#efefef!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#courses h1
+{
+  text-align: center;
+  color:#efefef!important;
+  padding-bottom: 10px;
+}
+#courses h1::after
+{
+  content:'';
+  background:#efefef;
+  display:block;
+  height:2px;
+  width:150px;
+  margin:20px auto 5px;
+}
+.courses
+{
+  margin-top: 40px;
+}
+.icon 
+{
+  font-size: 40px;
+  margin:20px auto;
+  padding:20px;
+  height:80px;
+  width:80px;
+  border:1px solid #fff;
+  border-radius:25%;
+}
+#courses p
+{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.courses .col-md-3:hover{
+  background: #007bff;
+  cursor:pointer;
+  transition: 0.8s;
+}
+/*team---------*/
+#team{
+  align-items: center;
+  padding-top:50px;
+  padding-bottom:50px;
+  color:#555;
+}
+#team .row
+{
+  margin-top: 30px;
+}
+.col-md-3
+{
+  margin:40px auto;
+}
+h1{
+  text-align:center;
+  color:#555!important;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content:'';
+  background:#007bff;
+  display: block;
+  height:3px;
+  width:170px;
+  margin:20px auto 5px;
+}
+.profile-pic
+{
+  padding:70px 10px 10px;
+  align-self: center;
+  margin-top: 25;
+}
+.profile-pic  .img-box
+{
+  align-items: center;
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic  .img-box img:hover
+{
+  filter:grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h2
+{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff!important;
+}
+.profile-pic h3
+{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa
+{
+  height:25px;
+  width: 25px;
+  color: #007bff!important;
+  background: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+.img-box ul
+{
+  padding: 15px 0;
+  position: absolute;
+  z-index: 2;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  opacity: 0;
+}
+.img-box ul li
+{
+  padding:5px;
+  display: inline-block;
+}
+.img-box:hover ul
+{
+  opacity: 1;
+}
+.img-box ul ,.img-box ul li
+{
+  transition:0.5s;
+}
+/*---------promo-----*/
+#promo
+{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/learn.jpg);
+  background-size:cover;
+  background-position: center;
+  color:#fff;
+  background-attachment:fixed;
+  text-align: center;
+  padding: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 38px; 
+}
+#btn .btn-primary
+{
+  padding: 10px;
+}
+#footer
+{
+  background: #333;
+  color: cornsilk;
+  font-family: cursive;
+  font-size: 20px; 
+  padding: 12px;
+}
+/* button*/
+.button 
+{
+   background-color:blue;
+   border:1px solid white;
+   padding:10px 15px;
+   color:white;
+   display: inline-block;
+   align-items: center;
+}
+.button:hover
+{
+      background-color:white;
+      color: blue;
+      border:2px solid blue;
+
+}
+.btn
+{
+  align-self: center;
+}
+.bg-model
+{
+width:100%;
+height:100%;
+background-color:rgba(0,0,0,0.8);
+position:absolute;
+top:0;
+display:none;
+justify-content:center;
+align-items: center;
+}
+.model-content
+{
+   align-items: center;
+   width:600px;
+   height:400px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   padding: 20px;
+   position: relative;
+   align-content: center;
+}
+#promo h15 
+{
+  font-weight: bold;
+  text-align: center;
+}
